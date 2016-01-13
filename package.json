@@ -1,0 +1,37 @@
+{
+  "name": "lictrak",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Tracks licenses of npm dependencies in various formats",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weblogixx/lictrak.git"
+  },
+  "keywords": [
+    "licence"
+  ],
+  "engines": {
+    "node": ">=4.0.0",
+    "iojs": ">=1.1.0"
+  },
+  "author": "Christian Schilling <cs@weblogixx.de> (https://github.com/weblogixx)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weblogixx/lictrak/issues"
+  },
+  "homepage": "https://github.com/weblogixx/lictrak#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "csv-parse": "^1.0.1"
+  }
+}
