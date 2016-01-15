@@ -1,0 +1,7 @@
+language: node_js
+sudo: false
+node_js:
+  - '4.2.4'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'lictrak' ]; then cd .. && eval "mv $currentfolder lictrak" && cd lictrak; fi

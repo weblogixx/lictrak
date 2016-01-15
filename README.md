@@ -1,6 +1,8 @@
 # lictrak
 > Keep track of your npm dependencies licenses
 
+[![Build Status](https://secure.travis-ci.org/weblogixx/lictrak.png?branch=master)](https://travis-ci.org/weblogixx/lictrak)
+
 # What is lictrak?
 lictrak (short for license tracker) is a command line utility to track the licenses (you already guessed that, right?) of packages installed in your projects  ```node_modules``` folder.
 
