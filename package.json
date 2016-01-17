@@ -6,10 +6,10 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index",
-    "test": "istanbul cover _mocha",
+    "test": "mocha",
     "posttest": "npm run lint",
     "lint": "eslint ./lib",
-    "test:watch": "istanbul cover _mocha -- --watch"
+    "test:watch": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -37,7 +37,6 @@
   },
   "dependencies": {
     "colors": "^1.1.2",
-    "commander": "^2.9.0",
-    "csv-parse": "^1.0.1"
+    "commander": "^2.9.0"
   }
 }
